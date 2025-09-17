@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>$walkeu • Walking Across Europe</title>
+    <meta
+      name="description"
+      content="$walkeu is the Solana memecoin that walks across every country in Europe, sharing vibes and green energy along the way."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="background-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="#vision" aria-label="$walkeu home">
+          <span class="brand__icon">🚶‍♂️</span>
+          <span class="brand__text">$walkeu</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#vision">Vision</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#tokenomics">Tokenomics</a>
+          <a href="#community">Community</a>
+        </nav>
+        <div class="cta-cluster">
+          <a
+            class="cta-button cta-button--pump"
+            href="https://pump.fun/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <span class="cta-button__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+                <defs>
+                  <linearGradient id="pumpGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#2efca4" />
+                    <stop offset="100%" stop-color="#16b67f" />
+                  </linearGradient>
+                </defs>
+                <circle cx="16" cy="16" r="15" fill="url(#pumpGradient)" />
+                <path
+                  d="M11.5 21.5c3.4 0 6.9-2.6 6.9-6.4 0-2.4-1.7-4-4.2-4-1.5 0-2.8.5-3.6 1.6l2.3 1.7c.4-.5.8-.7 1.4-.7.8 0 1.3.5 1.3 1.3 0 1.6-1.8 2.6-3.5 2.6-.6 0-1-.1-1.4-.2l-.8 3.3c.6.2 1.1.2 1.6.2z"
+                  fill="#041c10"
+                />
+                <path
+                  d="M20.2 8.2h3.7v15.6H20V10.9c-.4.3-1 .6-1.7.8l-.8-3.1c1-.2 2.1-.5 2.7-1.3z"
+                  fill="#041c10"
+                />
+              </svg>
+            </span>
+            <span class="cta-button__label">Pump.fun</span>
+          </a>
+          <a
+            class="cta-button cta-button--x"
+            href="https://x.com/walkeu"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <span class="cta-button__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path
+                  d="M3 2.5h4.3l4.1 5.9 3.6-5.9H21l-7.1 10.7 7.1 8.3h-4.3l-4.5-6.2-3.8 6.2H3l7.4-11.3L3 2.5z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span class="cta-button__label">X (Twitter)</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="vision" class="hero">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Powered by Solana speed</p>
+          <h1>
+            Walk the length of Europe with the meme coin that keeps moving
+          </h1>
+          <p class="hero__description">
+            $walkeu is the green-tinted traveler of the Solana chain. We start
+            in Belgium and step through every European nation, leaving memes,
+            miles, and momentum at every pit stop.
+          </p>
+          <div class="hero__actions">
+            <a class="cta-button" href="#roadmap">
+              <span class="cta-button__label">View the highway roadmap</span>
+            </a>
+            <a class="cta-button cta-button--secondary" href="https://pump.fun/" target="_blank" rel="noreferrer noopener">
+              <span class="cta-button__label">Mint on Pump.fun</span>
+            </a>
+          </div>
+          <dl class="hero__stats">
+            <div>
+              <dt>Chain</dt>
+              <dd>Solana</dd>
+            </div>
+            <div>
+              <dt>Mission</dt>
+              <dd>Every country, every vibe</dd>
+            </div>
+            <div>
+              <dt>Community pace</dt>
+              <dd>Always walking</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero-map">
+            <div class="hero-map__ring"></div>
+            <div class="hero-map__pulse"></div>
+            <div class="hero-map__walker">
+              <div class="walker-silhouette">
+                <div class="walker-silhouette__head"></div>
+                <div class="walker-silhouette__torso"></div>
+                <div class="walker-silhouette__leg walker-silhouette__leg--left"></div>
+                <div class="walker-silhouette__leg walker-silhouette__leg--right"></div>
+              </div>
+            </div>
+            <div class="hero-map__label">Origin: Belgium</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-grid" id="tokenomics">
+        <div class="feature-grid__card">
+          <h2>Hyper green tokenomics</h2>
+          <p>
+            A fair-launch supply, community-first liquidity, and relentless
+            motion. Every kilometer along the highway is matched by memes
+            minted on Solana.
+          </p>
+          <ul>
+            <li>Fair launch, no presale, no team dump</li>
+            <li>Liquidity locked with community guardians</li>
+            <li>5% of supply for cross-border quests</li>
+          </ul>
+        </div>
+        <div class="feature-grid__card">
+          <h2>Utility with every step</h2>
+          <p>
+            Holders unlock IRL meetups, geo-tagged NFT souvenirs, and speed-run
+            quests that reward stamina and good vibes.
+          </p>
+          <ul>
+            <li>Proof-of-walk leaderboards</li>
+            <li>Limited edition souvenir drops</li>
+            <li>Community voted pit stop events</li>
+          </ul>
+        </div>
+        <div class="feature-grid__card">
+          <h2>Eco-driven culture</h2>
+          <p>
+            A portion of every viral moment funds green charities across the
+            continent—because the future of walking memes should be clean.
+          </p>
+          <ul>
+            <li>On-chain donations for local causes</li>
+            <li>Collaborations with eco collectives</li>
+            <li>Offsetting every virtual kilometer</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="roadmap" class="roadmap-section">
+        <div class="section-heading">
+          <p class="section-heading__eyebrow">The highway march</p>
+          <h2>
+            An interactive 3D highway from Belgium through every European
+            country (except Ukraine and Russia)
+          </h2>
+          <p>
+            Scroll to push the road forward, watch the walker glide, and explore
+            each pit stop marked with national signs and legendary landmarks.
+          </p>
+        </div>
+        <div class="roadmap-layout">
+          <div class="road-viewport" aria-hidden="true">
+            <div class="roadway">
+              <div class="road-surface">
+                <div class="road-texture"></div>
+                <div class="marker-layer"></div>
+              </div>
+              <div class="walker" aria-hidden="true">
+                <div class="walker__shadow"></div>
+                <div class="walker__body">
+                  <div class="walker__head"></div>
+                  <div class="walker__torso"></div>
+                  <div class="walker__limb walker__limb--arm-left"></div>
+                  <div class="walker__limb walker__limb--arm-right"></div>
+                  <div class="walker__limb walker__limb--leg-left"></div>
+                  <div class="walker__limb walker__limb--leg-right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="roadmap-feed" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="community" class="community">
+        <div class="community__content">
+          <h2>Join the pan-European walk club</h2>
+          <p>
+            From Brussels to Baku and Reykjavik to Valletta, the $walkeu crew is
+            collecting stamps, stories, and unstoppable meme energy. Jump in,
+            share your stride, and keep the highway glowing.
+          </p>
+          <div class="community__actions">
+            <a class="cta-button" href="https://t.me" target="_blank" rel="noreferrer noopener">
+              <span class="cta-button__label">Telegram caravan</span>
+            </a>
+            <a class="cta-button cta-button--secondary" href="https://discord.com" target="_blank" rel="noreferrer noopener">
+              <span class="cta-button__label">Discord camps</span>
+            </a>
+          </div>
+        </div>
+        <div class="community__grid" aria-hidden="true">
+          <div class="community__card">
+            <h3>Speedrun challenges</h3>
+            <p>Weekly quests that unlock POAP-style NFTs for every finish line.</p>
+          </div>
+          <div class="community__card">
+            <h3>Live route voting</h3>
+            <p>Token holders vote on the next scenic detour and meme drop.</p>
+          </div>
+          <div class="community__card">
+            <h3>Vibes analytics</h3>
+            <p>Track the highway energy with real-time dashboards and memes.</p>
+          </div>
+          <div class="community__card">
+            <h3>Street team</h3>
+            <p>Local meetups and flash mobs at iconic landmarks across Europe.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <span class="brand__icon">🚶‍♂️</span>
+          <span class="brand__text">$walkeu</span>
+        </div>
+        <p>Walking across Europe on Solana, one meme-fueled stride at a time.</p>
+        <div class="site-footer__links">
+          <a href="https://pump.fun/" target="_blank" rel="noreferrer noopener">Pump.fun</a>
+          <a href="https://x.com/walkeu" target="_blank" rel="noreferrer noopener">X</a>
+          <a href="#roadmap">Interactive roadmap</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
